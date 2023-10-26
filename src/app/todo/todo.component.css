@@ -1,0 +1,107 @@
+
+  /* Style the delete icon */
+  /* .delete {
+    
+    justify-content: flex-end;
+    background: url('../../assets/delete.png') no-repeat center center;
+    background-size: auto;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 30%;
+    cursor: pointer;
+    padding: 20px;
+    margin-left: 10px;
+    align-self: flex-end;
+  }
+  .delete :hover{
+    background-color: orange;
+} */
+  
+  
+  
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+input[type="text"][formControlName="task"] {
+  font-size: 16px; 
+  padding: 10px; 
+  width: 300px; 
+  border: 1px dotted #000; 
+  border-radius: 5%; 
+  transition: border-color 0.3s;
+}
+
+input[type="text"][formControlName="task"]:hover {
+  /* background-color: rgb(245, 202, 216);  */
+  background-color: rgb(209, 208, 206,0.7);
+}
+
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: rgb(255, 244, 246);
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    
+}
+  
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px dotted purple;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 150%;
+    word-break: break;
+    counter-increment: item;
+    background-color: rgb(238, 144, 107,0.2);
+    list-style: decimal;  
+  
+    
+    font-family: '2Dumb', sans-serif; 
+    color: #000; 
+  }
+  
+  li::before {
+    content: counter(item);
+    margin-right: 10px;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    border-radius: 60%;
+    padding: 12px;
+  }
+  
+  li button {
+    justify-content: flex-end;
+    background: url('../../assets/delete.png') no-repeat center center;
+    background-size: auto;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 30%;
+    cursor: pointer;
+    padding: 20px;
+    margin-left: 10px;
+    align-self: flex-end;
+  }
+  
+  li button:hover{
+    background-color: orange;
+}

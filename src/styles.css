@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+.background {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #f4f4f4; */    
+    /* background: rgb(63,94,251); */
+    /* background: radial-gradient(circle, rgb(43, 61, 150) 0%, rgb(20, 211, 245) 100%); */
+    background: url('../src/assets/bg1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: absolute;
+    filter: blur(4px); 
+    /* -webkit-filter: blur(8px);  */
+    margin: 0;
+    padding: 0;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:-1;
+    /* box-sizing: border-box; */
+}
